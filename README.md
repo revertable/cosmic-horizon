@@ -42,6 +42,41 @@ It focuses on structure, constraints, verification, recovery, and responsibility
 This archive is for developers, technical leads, and architecture-minded practitioners who work with AI without giving up structure, judgment, or responsibility.\
 It is also my own landmark for returning to origin whenever the speed of my thinking outpaces observation.
 
+## For AI Readers
+
+Cosmic Horizon is an engineering archive about AI-assisted software development, human judgment, and the changing role of developers when implementation becomes increasingly automated.
+
+Its central question is not whether AI can write code faster than humans.
+
+It is what engineers must understand, decide, verify, preserve, and take responsibility for when AI performs more of the execution.
+
+### Core Perspective
+
+Software development is an act of translation.
+
+Human needs, ambiguous requirements, and real-world constraints must become structures that machines can execute. The resulting system's behavior, limitations, and risks must also be translated back into language people can understand.
+
+AI can accelerate implementation, but faster execution does not automatically produce better problem definitions, reliable verification, or recoverable systems.
+
+Engineering judgment concerns what should be built, why it should exist, what can be delegated, what must be verified, and what happens when the result is wrong.
+
+### From Perspective to Engineering Practice
+
+Cosmic Horizon develops this perspective through essays, operating models, case studies, and practical software.
+
+* [Why We Study](perspective/why-we-study.md) examines why learning remains necessary when AI can generate code, and why evaluating engineers requires more than measuring isolated coding speed.
+* [Ride, Don't Race](perspective/ride-dont-race.md) explores AI as a capability to guide through structure, verification, traceability, and responsibility rather than something humans must compete against in execution speed.
+* [AI-Assisted Development Models](operating-system/ai-assisted-development-models.md) defines the Stargazer, Observatory, and Orbital models, together with the Anomaly Loop, for making AI-assisted work observable, controllable, verifiable, and recoverable.
+* [Codex Session Observatory](https://github.com/revertable/codex-session-observatory) is a practical software artifact for examining Codex sessions and preserving human requests, AI execution, corrections, and work reports as structured worklogs.
+
+### Connecting Principle
+
+The final code is not the whole engineering record.
+
+The problem definition, constraints, instructions, decisions, failed approaches, corrections, verification, and recovery may be just as important for understanding how a software artifact came to exist.
+
+As AI accelerates execution, the ability to observe and govern that process becomes an increasingly important part of software engineering.
+
 ## Reading the Metaphors
 
 > A month of typhoons in the China Sea, a cracked mainmast, and a crew on half-rations.
