@@ -1141,8 +1141,8 @@ Mode                 LastWriteTime         Length Name
 구현 완료했습니다. 기존 기능/API/DB/auth 경로는 건드리지 않았고, 실험용 route와 public asset만 추가했습니다.
 
 **추가 파일**
-- [page.js](E:/DevTeam/workspace/coffeebara/frontend/app/figma-publish-lab/page.js)
-- [spaceShips.module.css](E:/DevTeam/workspace/coffeebara/frontend/app/figma-publish-lab/spaceShips.module.css)
+- `frontend/app/figma-publish-lab/page.js`
+- `frontend/app/figma-publish-lab/spaceShips.module.css`
 - `frontend/public/figma-publish-lab/space-ships/hero-spaceship.png`
 - `frontend/public/figma-publish-lab/space-ships/gallery-sun-1.png`
 - `frontend/public/figma-publish-lab/space-ships/gallery-sun-2.png`
