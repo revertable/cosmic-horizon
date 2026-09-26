@@ -6,8 +6,6 @@ description: >-
 
 # 🔭 Cosmic Horizon: Start Here
 
-**Language:** English | [한국어](cosmic-horizon-start-here-kr.md)
-
 > **Are you using AI?**\
 > Really?
 >
