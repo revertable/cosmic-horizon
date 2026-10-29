@@ -25,6 +25,4 @@
 
 ## SHIFTING HORIZON
 
-***
-
-* [Try it.](try-it..md)
+* [Try it.](shifting-horizon/try-it..md)
