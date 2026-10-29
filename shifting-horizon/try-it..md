@@ -4,13 +4,13 @@ description: >-
   shaped by experience, and the shifting boundaries of developer competence.
 ---
 
-# Try it.
+# Try It.
 
 > “I've played this game before.”
 >
 > — Seong Gi-hun, _Squid Game_
 
-## The Rules I Knew
+## The Horizon I Knew
 
 For nearly ten years, I developed software primarily with Java and Spring.
 
@@ -34,11 +34,11 @@ It sounded perfectly reasonable.
 
 For a long time, I never thought to question it.
 
-## The World Beyond My Stack
+## Shifting Horizon
 
 I used to have a fairly narrow understanding of my professional territory.
 
-Java. JSP. JavaScript. Spring. Enterprise systems. Government frameworks. SI projects.
+Java. JSP. JavaScript. Spring. Enterprise systems. Public-sector projects built with South Korea's e-Government Standard Framework (eGovFrame). Systems integration projects.
 
 Those were familiar.
 
@@ -72,7 +72,7 @@ My professional world had grown.
 
 And I had not abandoned everything I learned during the previous decade to get there.
 
-## What I Brought With Me
+## Rust? Trust.
 
 When I work with AI, I bring my existing experience into the conversation.
 
@@ -108,7 +108,7 @@ Eventually, I realized something.
 
 That distinction opened doors I had kept locked from the inside for years.
 
-## The System I Had to Rediscover
+## Two Voices
 
 Not long ago, I needed to explain how a particular technology had been integrated into a project I had developed.
 
