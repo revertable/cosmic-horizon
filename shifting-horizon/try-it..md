@@ -46,7 +46,7 @@ Perhaps React, if I wanted to venture a little further.
 
 Beyond that were job postings filled with unfamiliar technologies and terminology. Rust, Kotlin, RAG, LLMs, and countless other names seemed to belong to different kinds of developers.
 
-I would read those postings and move on.
+I would read those postings and quietly close the tab.
 
 Then I began developing software with AI.
 
@@ -70,7 +70,7 @@ _Wait. I could probably do that._
 
 My professional world had grown.
 
-And I had not abandoned everything I learned during the previous decade to get there.
+I carried nearly ten years of experience into that wider world.
 
 ## Rust? Trust.
 
@@ -352,7 +352,7 @@ I know the rules.
 
 But I have also played another way.
 
-I am increasingly unwilling to describe my work as something other than what it actually is merely because the familiar description would be easier to accept.
+I want to describe my work as it actually is.
 
 I cannot decide, on my own, what society should recognize as a developer.
 
