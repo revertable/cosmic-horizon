@@ -22,3 +22,9 @@
 * [🛸 \[case\] Why My Ship Is Ivory](operating-system/case-why-my-ship-is-ivory.md)
 * [\[pattern\] FTL-Bound Agents](operating-system/pattern-ftl-bound-agents/README.md)
   * [\[protocol\] AGENTS.md Blueprint](operating-system/pattern-ftl-bound-agents/protocol-agents.md-blueprint.md)
+
+## SHIFTING HORIZON
+
+***
+
+* [Try it.](try-it..md)
