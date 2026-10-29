@@ -86,7 +86,7 @@ Codex then handles much of the implementation and technical verification.
 
 I examine the results, operate the application, investigate problems, and decide what happens next.
 
-AI contributes ideas, implementation details, and sometimes designs I would never have arrived at independently. I have no reason to disguise those contributions.
+AI contributes ideas, implementation details, and sometimes designs I would never have arrived at independently. I openly acknowledge those contributions.
 
 The decisions I make are informed by years of development experience, even when the code is written in a language I can barely use fluently.
 
@@ -174,9 +174,7 @@ There is a question that often appears when people discuss AI-assisted developme
 
 > “How can you trust code written by AI?”
 
-I understand the concern.
-
-But before answering, I would like to change one word in the question.
+That question makes me want to ask it again with a different author.
 
 How can you trust code written by yourself?
 
@@ -220,8 +218,6 @@ If my own instructions caused the problem, I learn from it and adjust the next r
 
 Then I verify the result and continue.
 
-There is no magic in this process.
-
 A passing test is evidence within the scope of that test. I also need to know whether it actually ran and whether it covers the behavior that matters.
 
 The appropriate controls depend on what the software does, what failure would cost, and how readily the system can recover.
@@ -257,8 +253,6 @@ That experience leaves me with a question of my own.
 I certainly cannot guarantee mine.
 
 The name of the author has never been a substitute for evidence that software works.
-
-And the existence of a bug has never meant that development has ended.
 
 A patch is released. A new version follows. Requirements change. Designs evolve.
 
@@ -418,4 +412,4 @@ Then decide what you think.
 
 ## Related Coordinates
 
-> **None yet**.
+> None yet.
