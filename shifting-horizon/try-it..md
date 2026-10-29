@@ -418,6 +418,4 @@ Then decide what you think.
 
 ## Related Coordinates
 
-> None yet.
->
-> **The next coordinate is yours to plot.**
+> **None yet**.
