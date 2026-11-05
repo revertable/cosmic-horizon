@@ -4,7 +4,7 @@ description: >-
   shaped by experience, and the shifting boundaries of developer competence.
 ---
 
-# Try It.
+# Try It
 
 > “I've played this game before.”
 >
