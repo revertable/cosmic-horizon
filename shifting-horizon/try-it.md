@@ -14,9 +14,9 @@ description: >-
 
 For nearly ten years, I developed software primarily with Java and Spring.
 
-I read code, wrote code, traced failures, fixed bugs, and deployed systems. Sometimes the server refused to start. Sometimes a feature that worked yesterday broke after an unrelated change. Sometimes an integration test revealed a remarkable number of things we had confidently declared finished.
+I read code, wrote code, traced failures, fixed bugs, and deployed systems. Sometimes the server refused to start. Sometimes a feature that worked yesterday broke after an unrelated change. Sometimes integration tests revealed a remarkable number of problems in things we had confidently declared finished.
 
-We investigated, corrected the problems, and tried again.
+We investigated, fixed the problems, and tried again.
 
 That was software development as I knew it.
 
@@ -26,13 +26,13 @@ If you built a system, you should understand how it works. You should be able to
 
 I believed this so strongly that I would have questioned anyone who claimed to have developed software without those abilities.
 
-I can still hear the question I might have asked.
+I can still hear the question I would have asked back then:
 
 > “How can you call yourself a developer if you don't even understand the system you built?”
 
 It sounded perfectly reasonable.
 
-For a long time, I never thought to question it.
+For a long time, I never thought to question that standard.
 
 ## Shifting Horizon
 
@@ -58,25 +58,29 @@ If you put me in front of an empty Rust project and asked me to write Hello Worl
 
 Yet I have developed, improved, tested, and released a Rust-based application.
 
-At first, even I found that contradiction amusing.
+At first, that gap felt unfamiliar.
 
-But something else was happening.
+I was not comfortable with the language's syntax, yet I was participating in the development of software built with it, examining the results, and deciding what to do next.
 
-The technologies I once considered outside my reach were becoming practical options.
+Along the way, my attitude toward unfamiliar technologies began to change.
 
-When I encountered a job posting mentioning RAG or LLMs, I began having a different thought.
+Previously, when I saw RAG or LLMs mentioned in a job posting, I thought of them as areas I had never worked in.
 
-_Wait. I could probably do that._
+But after developing a service using those technologies, I no longer judged what might be possible based on their names alone.
 
-My professional world had grown.
+Having used a technology does not necessarily mean understanding it deeply or being qualified for a role that requires it.
 
-I carried nearly ten years of experience into that wider world.
+Still, unfamiliarity alone was no longer a reason to rule it out from the beginning.
+
+The range of technologies and problems I believed I could approach was gradually widening.
+
+And I carried nearly ten years of experience into that wider world.
 
 ## Rust? Trust.
 
 When I work with AI, I bring my existing experience into the conversation.
 
-I know how requirements become systems. I have seen what happens when a seemingly minor condition is overlooked. I have spent enough time maintaining software to recognize that a quick implementation can become a long-term problem.
+I know how requirements become systems. I have seen what happens when a seemingly minor condition is overlooked. I have spent enough time maintaining software to recognize that a quick implementation can become a long-term burden.
 
 Those experiences influence the questions I ask.
 
@@ -84,29 +88,29 @@ I discuss problems and possible approaches with ChatGPT. Sometimes I arrive with
 
 Codex then handles much of the implementation and technical verification.
 
-I examine the results, operate the application, investigate problems, and decide what happens next.
+I examine the results, use the application, investigate problems, and decide what happens next.
 
-AI contributes ideas, implementation details, and sometimes designs I would never have arrived at independently. I openly acknowledge those contributions.
+AI contributes ideas, implementation details, and sometimes designs I might never have arrived at independently. I openly acknowledge those contributions.
 
-The decisions I make are informed by years of development experience, even when the code is written in a language I can barely use fluently.
+The decisions I make are informed by years of development experience, even when the code is written in a language I cannot use fluently.
 
 Sometimes an AI explanation immediately connects to something I already know.
 
 Sometimes I ask for clarification.
 
-Sometimes I find myself saying, _Wouldn't this other approach make more sense?_
+Sometimes I find myself thinking, _Wouldn't this other approach make more sense?_
 
-The same tool can explain the same technology to two people, yet their conversations may go in very different directions.
+Even when people use the same tool and receive the same explanation, their experience may lead them to notice different details and ask different follow-up questions.
 
-Experience changes what we recognize, what we question, and what we decide to do with an answer.
+In my case, previous development experience influenced what I asked, which risks I looked for, and how I verified the results.
 
 And every new project adds to that experience.
 
-Eventually, I realized something.
+Over time, I began to distinguish between knowledge of a particular technology and the abilities involved in developing software.
 
-> “I didn't know Rust. I knew how to develop software.”
+> “Rust was unfamiliar to me. But the process of developing software was not.”
 
-That distinction opened doors I had kept locked from the inside for years.
+Recognizing that distinction led me to reconsider technologies I had previously ruled out.
 
 ## Two Voices
 
@@ -126,11 +130,11 @@ The answer emerged.
 
 I understood where the technology was used, how it had been integrated, and how the implementation had evolved.
 
-The question was resolved.
+Now I could answer the question.
 
 Yet something continued to bother me.
 
-_How could I have built something without already knowing that?_
+_How could I claim to have built it if I didn't even know that?_
 
 It was an old, familiar voice.
 
@@ -138,11 +142,11 @@ The voice of the developer I used to be.
 
 Then another thought appeared.
 
-I had encountered a question, located the relevant information, examined the evidence, and established an answer.
+I had faced a question, located the relevant information, examined the evidence, and verified the answer.
 
-Wasn't that also an exercise of development competence?
+Could the problem analysis and verification involved in that process also be considered part of development competence?
 
-I remembered how often I had done essentially the same thing before AI.
+I remembered how often I had done similar things before AI.
 
 Opening code I'd written months earlier and staring at it like a stranger.
 
@@ -150,41 +154,53 @@ Searching old documents.
 
 Tracing a call through several layers.
 
-Wondering what past-me was thinking.
+Wondering what past-me had been thinking.
 
 Sometimes asking a colleague who remembered the original problem.
 
 Now AI was helping me do those things.
 
+That does not mean there is never a problem with failing to understand the current implementation.
+
 The experience left me with a question I still haven't completely resolved.
 
-> “Must a developer already know the answer, or must a developer be able to find and establish the answer when it matters?”
+> “Must a developer already know the answer, or must a developer be able to find and verify the answer when it matters?”
 
 I suspect the answer depends on the situation.
 
-During a critical incident, the time required to recover understanding can become a serious risk. Some decisions demand deep knowledge before implementation begins.
+During a critical incident, the time required to recover an understanding of the system can become a serious risk. Some decisions demand deep knowledge before implementation begins.
 
 Those conditions affect how I prepare, document, verify, and operate a system.
 
-They also make me question the expectation that one person should carry an entire system in their head.
+They also make me question the expectation that one person should always carry an entire system in their head.
+
+What must be understood in advance? What must be documented? And what can be looked up and verified when needed?
+
+I now see those distinctions as another set of decisions to make during software development.
 
 ## Whose Code Do You Trust?
 
-There is a question that often appears when people discuss AI-assisted development.
+There is a question that often comes up when people discuss AI-assisted development.
 
 > “How can you trust code written by AI?”
 
-That question makes me want to ask it again with a different author.
+It is an important question.
 
-How can you trust code written by yourself?
+But it also applies to code written by people.
 
-How can you trust code written by a colleague?
+Code I wrote myself.
 
-How can you trust an open-source library?
+Code written by a colleague.
 
-We have worked with all of these for decades.
+An open-source library brought into a project.
 
-We have also spent decades discovering their bugs.
+We have worked with all of these for a long time, and we have discovered countless problems in them.
+
+I have also found unexpected bugs in my own code, even after reviewing and testing it.
+
+When I think about those experiences, the question changes slightly.
+
+> **“Alongside asking who wrote the code, shouldn't we also ask what evidence we have for trusting the result?”**
 
 I remember software that failed immediately after deployment.
 
@@ -194,15 +210,15 @@ Changes that fixed one problem while introducing another.
 
 I have even encountered supposedly completed screens that turned out to be little more than an image placed inside an HTML page.
 
-And sometimes the developer responsible had already left.
+By then, the developer responsible had already left the project.
 
-Who was responsible then?
+Who was responsible?
 
 The developer? The reviewer? The person who accepted the work? The team that inherited it?
 
-Those fractures existed long before AI typed its first line of code.
+Questions about authorship, verification, and responsibility existed long before AI entered software development.
 
-Today, I use regression tests to protect existing behavior. I ask AI to implement changes and run tests. Then I operate the application myself, examine its behavior, and investigate anything that looks wrong.
+Today, I use regression tests to protect existing behavior. I ask AI to implement changes and run tests. Then I use the application myself, examine its behavior, and investigate anything that looks wrong.
 
 Sometimes the implementation is incorrect.
 
@@ -218,7 +234,11 @@ If my own instructions caused the problem, I learn from it and adjust the next r
 
 Then I verify the result and continue.
 
+Of course, an AI report that the tests passed is not sufficient reason to trust the result.
+
 A passing test is evidence within the scope of that test. I also need to know whether it actually ran and whether it covers the behavior that matters.
+
+Sometimes I need to read the code myself. Other situations call for additional tests or an independent review.
 
 The appropriate controls depend on what the software does, what failure would cost, and how readily the system can recover.
 
@@ -246,13 +266,13 @@ I have written code with my own hands. I have reviewed it, tested it, and confid
 
 Some of it still broke.
 
-That experience leaves me with a question of my own.
+At least I cannot guarantee that my own code is flawless.
 
-> **“You ask how I can trust code written by AI. But can you trust the code you wrote with your own hands?”**
+AI-written code may also have different failure modes and verification challenges from human-written code. Those differences deserve attention as well.
 
-I certainly cannot guarantee mine.
+But authorship alone cannot determine whether code is trustworthy.
 
-The name of the author has never been a substitute for evidence that software works.
+I need to verify how it behaves, understand the scope and limitations of that verification, and be able to respond when something goes wrong.
 
 A patch is released. A new version follows. Requirements change. Designs evolve.
 
@@ -264,11 +284,11 @@ That, too, is software development.
 
 Another change is happening alongside AI-assisted development.
 
-AI is increasingly used to analyze résumés, summarize candidates, generate interview questions, and assist hiring decisions.
+AI is being used to analyze résumés, summarize candidates, generate interview questions, and assist hiring decisions.
 
 I understand why.
 
-I have built an AI-powered portfolio myself. Synethos exists so visitors can ask questions about my experience and examine the records behind the answers.
+I have built an AI-powered portfolio myself. Synethos allows visitors to ask questions about my experience and examine the records supporting its answers.
 
 I believe these tools can be useful.
 
@@ -278,7 +298,7 @@ An interviewer uses AI to analyze a candidate's résumé.
 
 AI produces questions, perhaps even suggested answers.
 
-The interviewer reads one aloud.
+The interviewer reads one of the questions aloud.
 
 > “How can you trust code written by AI?”
 
@@ -290,23 +310,33 @@ Did they examine the reasoning behind the suggested answer?
 
 Could they recognize a mistake in it?
 
-What would they do if the AI had misunderstood the candidate's work?
+What would they do if AI had misunderstood the candidate's work?
 
-These are the very questions they are asking me about software.
+These are similar to the questions we ask when verifying software written by AI.
 
-> **“If you use AI to evaluate my work, shouldn't the same questions about understanding, evidence, and responsibility apply to your evaluation?”**
+> **“If AI is used to evaluate development work, shouldn't the evidence and reasoning behind that evaluation also be examined?”**
+
+I do not think using AI to prepare interview questions is inherently a problem.
+
+What matters is how the suggested material is understood, reviewed, and used to make actual decisions.
+
+It resembles the challenges I face when developing software with AI.
 
 I welcome questions about what I built, what I decided, what I delegated, what I verified, and what happened when something failed.
 
-My development records make many of those questions answerable.
+My development records contain answers to many of those questions.
 
 They preserve the instructions, changes, investigations, tests, and revisions behind the result.
 
-I would rather discuss those records than pretend that I personally typed every line.
+Rather than focusing on whether I personally typed every line, I would like to discuss the decisions I actually made and how I verified their outcomes, with those records as evidence.
 
-An employer may need someone who can write and maintain Rust directly, without AI assistance. That is a legitimate requirement for a particular job.
+Of course, an employer may need someone who can write and maintain Rust directly, without AI assistance. That is a legitimate requirement for a particular job.
 
-But I wonder how much of our broader definition of developer competence comes from such practical requirements, and how much comes from the methods we have grown accustomed to.
+I cannot claim that my experience developing a Rust application with AI is, by itself, enough to meet that requirement.
+
+But whether every standard for evaluating developer competence must be tied to one particular way of working is a separate question.
+
+It is worth distinguishing which capabilities a particular role truly requires from which standards may have emerged from established ways of working.
 
 Those are different questions.
 
@@ -314,25 +344,31 @@ And the distinction matters to someone trying to work in a changing industry.
 
 ## The Game I Have Already Played
 
-I know what a conventional answer in a technical interview sounds like.
+I know what kind of answer is likely to be familiar in a technical interview.
 
-I could say that I use AI merely to improve productivity, while personally reading, understanding, and reviewing every line of generated code.
+I could say that I use AI only as a productivity aid, while personally reading, understanding, and reviewing every line of generated code.
 
-I know how to work that way.
+Directly controlling and reviewing implementation details is familiar to me.
 
-I spent years doing it.
+I spent years developing software that way.
 
-I could revert to it tomorrow if the job demanded it.
+If a role requires it, there may be times when I need to work that way again.
 
 But that is not the way I generally choose to develop today.
 
-I have experienced both approaches.
+I have used both traditional development and AI-assisted development in real projects.
 
-And after comparing them through actual work, I have chosen to let AI handle more of the implementation while I concentrate on identifying problems, making decisions, directing the work, examining outcomes, and improving the process.
+Based on those experiences, I now choose to delegate more of the implementation to AI.
 
-I believe this approach serves me better.
+I concentrate on identifying problems, making decisions, directing the work, examining results, and improving the process.
 
-I have working software and development records that explain why.
+In the work I have done so far, I have found this approach well suited to applying the experience I have accumulated and working with unfamiliar technologies.
+
+I also have working software and development records that help explain that choice.
+
+That does not mean I believe the same approach will suit every project or every developer.
+
+I am still examining the conditions under which it works well, and the situations that require deeper understanding and more direct involvement from me.
 
 That choice has consequences.
 
@@ -342,13 +378,13 @@ I could give the familiar answers.
 
 I know the rules.
 
-> **“I have played this game before.”**
+> **“I've played this game before.”**
 
-But I have also played another way.
+But I have also tried another way.
 
-I want to describe my work as it actually is.
+I now want to describe how I actually work.
 
-I cannot decide, on my own, what society should recognize as a developer.
+I cannot decide, on my own, whom society should recognize as a developer.
 
 That definition will evolve through the work people do, the capabilities employers need, and the standards we collectively adopt.
 
@@ -360,7 +396,7 @@ And I can keep building.
 
 There is still a voice in my head that asks:
 
-_How can a developer fail to know the structure of a system they built?_
+_How can someone be a developer if they don't even know the structure of a system they built?_
 
 It is my own voice.
 
@@ -374,39 +410,41 @@ The ability to recall syntax?
 
 The ability to explain a particular implementation without preparation?
 
-The ability to identify a problem, make a sound decision, construct a working solution, and recover when something goes wrong?
+The ability to identify a problem, make a sound decision, build a working solution, and recover when something goes wrong?
 
 All of these can matter.
 
 Their importance depends on the work.
 
-What I question is the habit of treating one familiar method as the definition of the profession.
+What I question is the habit of treating one familiar method as the definition of an entire profession.
 
 I have tried working with AI as a genuine development partner.
 
-It has expanded the problems I can approach and changed how I use the experience I already have.
+That experience has expanded the range of problems I believe I can approach and changed how I use the experience I already have.
 
-It has also made me reconsider some beliefs I once held with absolute confidence.
+It has also made me reconsider beliefs I once held with absolute confidence.
 
 I am still learning where this approach works best, where it fails, and what responsibilities it places on me.
 
-The software keeps evolving.
+Software keeps evolving.
 
 So do I.
 
-And if this way of developing seems strange, perhaps the most useful next step is an experiment.
+If this way of developing seems unfamiliar, trying a small experiment might be worthwhile.
 
-Choose a problem.
+You could try building something outside your familiar technology stack.
 
-Try building something outside your familiar stack.
+You could discuss possible approaches with AI, examine the implementation, and investigate what goes wrong.
 
-Work with AI. Make the decisions. Examine the results. Investigate the failures. See what your existing experience allows you to do.
+Along the way, you might discover how your existing experience helps and where you need to develop a deeper understanding.
 
-Then decide what you think.
+That experience does not have to lead you to the same conclusion I reached.
 
-**I have played both ways.**
+Some differences only become apparent through firsthand experience. So do some limitations.
 
-**Have you?**
+**I've tried both ways.**
+
+And now I choose how I work based on what those experiences have taught me.
 
 **Try it.**
 
